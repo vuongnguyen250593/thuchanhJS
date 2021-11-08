@@ -1,6 +1,6 @@
 let inputWidth;
 let inputHeight;
-inputWidth = prompt("inputWidth")
+inputWidth = prompt("inputWidth");
 inputHeight = prompt("inputHeight");
 let width = parseInt(inputWidth);
 let height = parseInt(inputHeight);
