@@ -6,8 +6,9 @@ ly = parseInt(ly);
 hoa = parseInt(hoa);
 sinh = parseInt(sinh);
 
-let trungbinh = (ly + hoa + sinh)/3;
-let tong = ly + hoa + sinh;
+let trungbinh = ((ly + hoa + sinh)/3);
+trungbinh = trungbinh.toFixed(2);
+let tongs = ly + hoa + sinh;
 document.write("Đây là điểm trung bình = " + trungbinh);
 document.write('<br>');
 document.write("Đây là điểm tổng = " + tong);

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chuyển đổi tiền tệ</title>
+    <style>
+        table {
+            width: 600px;
+            margin: 0 auto;
+        }
+        td {
+            width: 25%;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <table>
+            <tr>
+                <td>Amount</td>
+                <td>From currency</td>
+                <td>To currency</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><input type="text" size="7" id="input" onkeypress="convert()"></td>
+                <td>
+                    <select name="" id="select1">
+                        <option value="vnd">VND</option>
+                        <option value="usd">USD</option>
+                        <option value="euro">EURO</option>
+                    </select>
+                </td>
+                <td>
+                    <select name="" id="select2">
+                        <option value="usd">USD</option>
+                        <option value="vnd">VND</option>
+                        <option value="euro">EURO</option>
+                    </select>
+                </td>
+                <td><input type="button" value="Convert" onclick="convert()"></td>
+            </tr>
+            <tr>
+                <td colspan="4" id="result"></td>
+        </table>
+    </form>
+    <script src="btchuyendoitiente.js">
+
+    </script>
+    
+</body>
+</html>
